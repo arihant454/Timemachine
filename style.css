@@ -1,0 +1,45 @@
+body{
+    background: url(./bg.jpg);
+    color: white;
+    font-family: 'Glory', sans-serif;
+    
+    
+}
+form{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 50px;
+    text-align: left;
+    
+}
+input{
+    border-radius: 7px;
+    width: 90%;
+    height: 10%;
+    margin-left: 20px;
+    
+}
+label{
+    font-size: 20px;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: block;
+}
+.sec{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: block;
+}
+.submit{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: block;
+    width: 90%;
+    height: 10%;
+    color: white;
+    background-color: rgba(0, 252, 0,0.5);
+}
