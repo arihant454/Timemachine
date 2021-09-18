@@ -1,8 +1,8 @@
 $(document).ready(function(){
         alert("not sleep");
+        $("#submit-btn").click(function(){
+            alert("button clicked");
         var key = $KEY;
-    $("#submit-btn").click(function(){
-        alert("button clicked")
         var nameInput = $("#name").val();
         var keyInput = $("#password").val();
         if (nameInput == "Arihant" && keyInput == key) {
