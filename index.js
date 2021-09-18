@@ -1,3 +1,5 @@
+import './.github/workflows/main.yml';
+
 $(document).ready(function(){
         alert($message);
         $("#submit-btn").click(function(){
