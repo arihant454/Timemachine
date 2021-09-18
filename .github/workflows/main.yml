@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
 
       - name: run custom code
-        run: echo $KEY
+        run: echo $message
         env:
           message: "starting message"
           KEY: ${{ secrets.KEY }}
