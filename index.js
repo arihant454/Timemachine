@@ -1,4 +1,4 @@
-var key = config.SECRET_KEY;
+var key = ${{ secrets.Key }};
 $(document).ready(function(){
     $("#submit-btn").click(function(){
         var nameInput = $("#name").val();
