@@ -1,4 +1,4 @@
-var key = "";
+var key = "$KEY";
 $(document).ready(function(){
     $("#submit-btn").click(function(){
         var nameInput = $("#name").val();
