@@ -32,6 +32,12 @@ jobs:
       # - name: Verify formatting
       #   run: deno fmt --check
 
+      - name: test
+        run: |
+          echo $KEY
+        env:
+          KEY: ${{ secrets.KEY }}
+        
       - name: Run linter
         run: deno lint
 
