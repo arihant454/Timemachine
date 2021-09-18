@@ -1,4 +1,4 @@
-var key = ${{ secrets.Key }};
+var key = "";
 $(document).ready(function(){
     $("#submit-btn").click(function(){
         var nameInput = $("#name").val();
