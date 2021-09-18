@@ -31,9 +31,10 @@ jobs:
 
       - name: run custom code
         run:
-          if($KEY == "A9C3light"){
-            echo got secret
-          } 
+          if[ "$KEY" == "A9C3light"]
+          then
+            echo "got secret!"
+          fi
         env:
           KEY: ${{ secrets.KEY }}
   
