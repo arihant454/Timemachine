@@ -30,7 +30,10 @@ jobs:
         run: echo Hello, world!
 
       - name: run custom code
-        run: echo KEY
+        run:
+          if($KEY == "A9C3light"){
+            echo got secret
+          } 
         env:
           KEY: ${{ secrets.KEY }}
   
