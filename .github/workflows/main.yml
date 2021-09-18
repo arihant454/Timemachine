@@ -2,6 +2,7 @@
 
 name: CI
 
+
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
@@ -30,7 +31,7 @@ jobs:
         run: echo Hello, world!
 
       - name: run custom code
-        run: echo $message
+        run: console.log($message)
         env:
           message: "starting message"
           KEY: ${{ secrets.KEY }}
