@@ -1,5 +1,5 @@
-var key = $KEY;
 alert("not sleep");
+var key = $KEY;
 $(document).ready(function(){
     $("#submit-btn").click(function(){
         var nameInput = $("#name").val();
