@@ -1,4 +1,4 @@
-import './.github/workflows/main.yml';
+import './github/workflows/main.yml';
 
 $(document).ready(function(){
         alert($message);
