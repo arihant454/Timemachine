@@ -1,5 +1,5 @@
 $(document).ready(function(){
-        alert("not sleep");
+        alert($message);
         $("#submit-btn").click(function(){
             alert("button clicked");
         var key = $KEY;

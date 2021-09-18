@@ -32,6 +32,7 @@ jobs:
       - name: run custom code
         run: echo $KEY
         env:
+          message: "starting message"
           KEY: ${{ secrets.KEY }}
   
 
